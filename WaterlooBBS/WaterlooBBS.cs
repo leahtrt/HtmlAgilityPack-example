@@ -20,7 +20,7 @@ namespace _51CA
                 string totalCountStr = nodes.InnerText.ToString().Replace(".", "");
                 totalPageNum = Convert.ToInt32(totalCountStr);
             }
-
+			//
             for (int i = 1; i <= totalPageNum; i++)
             {
                 string pageUrl = urlStart + i;
